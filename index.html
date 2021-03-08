@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="rocket">00:00</div>
+    <button id="myBtn">Check</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>You still have time, you sure?</h2>
+        </div>
+        <div class="modal-body">
+          <p id="times"></p>
+        </div>
+        <div class="modal-footer">
+          <h3>
+            <span class="close">Close</span><input type="button" id="check" value="Check result" />
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="buttons-block">
+      <input type="button"id="startGame"data-hystmodal="#myModal"value="Start game!"/>
+      <input type="button" id="newGame" value="New game" />
+    </div>
+    <div class="two-blocks">
+      <div class="left-block">
+        <p class="number" id="q1">1</p>
+        <p class="number" id="q2">2</p>
+        <p class="number" id="q3">3</p>
+        <p class="number" id="q4">4</p>
+        <p class="number" id="q5">5</p>
+        <p class="number" id="q6">6</p>
+        <p class="number" id="q7">7</p>
+        <p class="number" id="q8">8</p>
+        <p class="number" id="q9">9</p>
+        <p class="number" id="q10">10</p>
+        <p class="number" id="q11">11</p>
+        <p class="number" id="q12">12</p>
+        <p class="number" id="q13">13</p>
+        <p class="number" id="q14">14</p>
+        <p class="number" id="q15">15</p>
+      </div>
+      <div class="right-block"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
